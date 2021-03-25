@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+inpput,
+textarea,
+button {
+    font: 600 18px Nunito, sans-serif;
+}

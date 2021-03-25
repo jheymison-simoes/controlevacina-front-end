@@ -1,0 +1,131 @@
+.container-vaccine {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-vaccine {
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-vaccine:hover {
+    color: #CCC;
+}
+
+.body-vaccine {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-vaccine {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-vaccine {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.description-vaccine {
+    font-weight: 900;
+    font-size: 50px;
+    color: #383838;
+}
+
+.form-vaccine {
+    width: 630px;
+    height: 610px;
+    background: #8179FF;
+    border-radius: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form-vaccine {
+    width: 80%;
+}
+
+.error {
+    color: #4d4d4d;
+}
+
+.btn-vaccine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 85px;
+    background: #4F44FF;
+    border: 1px solid #8179FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFF;
+    margin: 5px;
+    font-size: 25px;
+    transition: all ease 0.2s;
+}
+
+.btn-vaccine:hover {
+    background: #5144ff;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.view-vaccine {
+    text-decoration: none;
+    color: #FFF;
+    transition: all ease 0.2s;
+}
+
+.view-vaccine:hover {
+    font-weight: bolder;
+    color: #CCC;
+}
+
+.footer-vaccine {
+    position: absolute;
+    top: 95%;
+    left: 1%;
+}
+
+@media screen and (max-width: 900px) {
+    .container-vaccine {
+        height: auto;
+        overflow: auto;
+    }
+    .body-vaccine {
+        justify-content: center;
+    }
+    .content-vaccine {
+        margin-top: 40px;
+    }
+    .title-vaccine {
+        text-align: center;
+        font-size: 50px;
+    }
+    .description-vaccine {
+        font-size: 18px;
+        text-align: center;
+    }
+    .form-vaccine {
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 0;
+        height: 590px;
+    }
+}
