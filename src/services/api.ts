@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://controlevacinacao-back-end.herokuapp.com',
+    baseURL: process.env.REACT_APP_URL_API,
 });
 
 export default api;

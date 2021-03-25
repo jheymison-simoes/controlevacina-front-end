@@ -93,6 +93,9 @@
     .title-view {
         font-size: 50px;
     }
+    .description-view {
+        font-size: 18px;
+    }
     .users-view {
         display: flex;
         width: 90%;

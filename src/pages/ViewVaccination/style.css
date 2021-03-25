@@ -91,12 +91,19 @@
     .body-vaccine {
         text-align: center;
     }
+    .description-vaccine {
+        font-size: 18px;
+    }
     .title-vaccine {
+        margin-top: 10px;
         font-size: 50px;
     }
     .users-vaccine {
         display: flex;
         width: 90%;
         min-width: 420px;
+    }
+    .btn-vaccine {
+        width: 80%;
     }
 }
