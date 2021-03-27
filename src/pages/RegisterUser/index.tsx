@@ -170,6 +170,7 @@ export default function RegisterUser() {
                             name="cpf"
                             ref={register({
                                 required: true,
+                                maxLength: 11
                             })}
                         />
                         <label htmlFor="cpf">CPF</label>
