@@ -65,7 +65,7 @@ export default function VaccineAplication() {
                 
                 const statusCode = respose.status;
                 console.log(`Status Code = ${statusCode}`);
-                if(statusCode === 200){
+                if(statusCode === 201){
                     alertSucess(statusCode);
                     setNameVaccine('');
                     setDateVaccination('');

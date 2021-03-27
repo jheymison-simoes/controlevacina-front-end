@@ -69,7 +69,7 @@ export default function RegisterUser() {
                 
                 const statusCode = respose.status;
                 console.log(`Status Code = ${statusCode}`);
-                if(statusCode === 200){
+                if(statusCode === 201){
                     alertSucess(statusCode);
                     setName('');
                     setEmail('');
