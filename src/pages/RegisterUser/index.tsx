@@ -168,6 +168,7 @@ export default function RegisterUser() {
                             value={cpf}
                             onChange={event => setCpf(event.target.value)}
                             name="cpf"
+                            maxLength={11}
                             ref={register({
                                 required: true,
                                 maxLength: 11
