@@ -30,10 +30,10 @@ export default function Home() {
                             Vaccine Aplication
                         </Link>
 
-                        <Link to="https://drive.google.com/file/d/1T7VgrRBefHLHCmYoA7-xRll4WTDPZ9YO/view?usp=sharing" className="btn-home">
+                        <a href="https://drive.google.com/file/d/1T7VgrRBefHLHCmYoA7-xRll4WTDPZ9YO/view?usp=sharing" target="_blank" className="btn-home">
                             <MdAnnouncement className="icon-home"/>
                             Post-information
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
